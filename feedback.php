@@ -28,7 +28,7 @@ if ($honeypot == 'http://' && empty($humancheck)) {
 		echo json_encode($return);
 		exit();
 	} else {
-		//include 'mandarcorreo.php';
+		include 'mandarcorreo.php';
 		$return['error'] = false;
 		$return['msg'] = "Gracias " .$name ."! Nos pondremos en contacto contigo a la brevedad.";
 		echo json_encode($return);

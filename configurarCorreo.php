@@ -16,10 +16,10 @@
 
     //nota1: la dirección que envía debe ser de gmail --- nota2: tanto dirección de envio como recibido pueden ser las mismas si son de gmail.
 
-$nombreEmpresa = "Web ejemplo";
-$emailEnvio = "cuentaQueEnvia@gmail.com";
-$emailRecibido = "cuentaQueRecibe@loquesea.com";
-$pass = "cambiarPorPassword";
+$nombreEmpresa = "Nombre empresa";
+$emailEnvio = "email_envio@gmail.com";
+$emailRecibido = "email_recibe@cualquiercosa.com";
+$pass = "password";
 $asunto="Correo enviado desde ".$nombreEmpresa." por ".$name;
 $msg = "<p><b><font color='#31c27a'>Nombre:</font></b> ".$name."</p><p><b><font color='#31c27a'>Correo: </font></b>".$email."</p><p><b>
     <font color='#31c27a'>Mensaje: </font></b> ".$message."</p><p><font color='#b2b2b2'>--Mensaje enviado desde el formulario de contacto de

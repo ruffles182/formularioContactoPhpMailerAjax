@@ -65,13 +65,13 @@ div#wrapper div#inner-wrapper form#feedback div#response p {
 	clear: both;
 }
 .error {
-	background: #FF9F9F url(../imagenes/error.png) no-repeat 5px 10px;
+	background: #FF9F9F url(../error.png) no-repeat 5px 10px;
 }
 .success {
-	background: #B8F5B1 url(../imagenes/icon_ok.png) no-repeat 5px 10px;
+	background: #B8F5B1 url(../icon_ok.png) no-repeat 5px 10px;
 }
 .processing {
-	background: #b9d2c8 url(../imagenes/ajax-loader.gif) no-repeat 5px 10px;
+	background: #b9d2c8 url(../ajax-loader.gif) no-repeat 5px 10px;
 }
 .textbox  {
   border: 1px solid #DBE1EB;
